@@ -4,8 +4,7 @@ var objects = [];
 // adds a new object to the array, only objects
 // with .id specified are added.
 exports.add = function(obj)
-{
-	
+{	
 	if (obj.id && !this.getById(obj.id)) {
 	
 		objects.push(obj);
@@ -48,7 +47,6 @@ exports.getById = function(id)
 	}
 	
 	return [];
-
 };
 
 // removes an item from the array based on id
