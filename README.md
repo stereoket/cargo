@@ -32,7 +32,7 @@ or
 
     $.getById("foo");
     
-or
+or, if you want to get a specific index in order
 
     $.getByIndex(0);
     
