@@ -71,7 +71,7 @@ and now we can, outside of the table/loop access a *specific* label by simply do
 
     $.getById("row4").text = "Voila!";  	
     
-To remove/destroy an object storedin Cargo, use
+To remove/destroy a pointer stored in Cargo, use
 
     $.remove('foo');
 
