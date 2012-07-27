@@ -6,10 +6,11 @@ var objects = [];
 exports.add = function(obj)
 {
 	
-	//if (obj.id && !this.getById(obj.id)) {
+	if (obj.id && !this.getById(obj.id)) {
 	
 		objects.push(obj);
-	//}
+	}
+	
 	exports.length = objects.length;
 };
 
