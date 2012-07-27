@@ -5,6 +5,8 @@ A simple JavaScript object manager, designed for Titanium projects.
 
 Cargo allows you store pointers to objects your create, mainly controls but could be used for anything, and using an .id attribute, allows you to retrieve these objects easily.
 
+I created it because on occassion, I needed to reference a specific control in a row on a tableview and didn't want to have to navigate through the hierarchy or tie eventhandlers to every row.
+
 Typically you'd define a control as follows :-
 
     var label = Ti.UI.createLabel({text:"foo"});
